@@ -5,29 +5,29 @@ import Button from "../components/Button"
 const SuperQuality = () => {
   return (
     <section id="about-us" 
-    className=" flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
+    className=" flex justify-between items-center max-lg:flex-col-reverse gap-10 w-full max-container">
       <div className="flex flex-1 flex-col ">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
-          We Provide <span className="text-coral-red"> Superior Experience </span>
+          We are  <span className="text-coral-red"> Innovating Your Dining Experience </span>
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
-          Ensuring premium ingredients, our meticulously crafted menu is designed to elevate your experience, providing you with unmatched quality, innovation, and a touch of elegance.
+          We are personalizing your dining experience with the best recipes from the best chefs in the world that you watch on YouTube or Instagram or TickTok. We are bringing the best of the best to your neighborhood restaurant.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
           Our dedication to match quality and excellence of the celebrities recipe ensures your satisfaction. We are committed to providing you with the best experience possible, every time you visit.
         </p>
-        <div className="mt-11">
+        {/* <div className="mt-11">
           <Button 
           label="View Details" 
           iconURL={arrowRight} />
-        </div>
+        </div> */}
       </div>
       <div className="flex-1 flex justify-center items-center">
         <img
         src={shoe8}
         alt="shoe"
-        width={370}
-        height={322}
+        width={670}
+        height={622}
         className="object-contain"
         />
       </div>

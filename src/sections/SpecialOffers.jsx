@@ -25,22 +25,22 @@ const SpecialOffers = () => {
           Embark on an exclusive journey that redefines your experience. From premier selections to incredible savings, we offer unparalleled value that sets us apart. 
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
-          Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of expectional. 
+          To get access to any of our restaurants, you need to be a member. Membership offers Personalized experiences. Become a member and get going with the best of the best.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
-          Membership is $10/year. It will take you to stripe checkout page.
+          Membership is <span className="text-coral-red">$10/year.</span> It will take you to stripe checkout page.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
           <Button 
           label="Buy Membership" 
           iconURL={arrowRight}
           handleClick={handleClick} />
-          <Button
+          {/* <Button
           label="Learn more"
           backgroundColor="bg-white"
           borderColor="border-slate-gray"
           textColor="text-slate-gray"
-          />
+          /> */}
         </div>
 
       </div>

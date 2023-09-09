@@ -9,6 +9,7 @@ import footerlogo from './footer-logo.svg'
 import headerlogo from './header-logo.svg'
 
 import offer from './offer.svg'
+import chat from './chat.svg'
 
 import shoe4 from './shoe4.svg'
 import shoe5 from './shoe5.svg'
@@ -33,6 +34,7 @@ export {
     headerlogo,
 
     offer,
+    chat,
     shoe4,
     shoe5,
     shoe6,

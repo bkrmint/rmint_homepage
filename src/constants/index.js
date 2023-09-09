@@ -55,17 +55,17 @@ export const products = [
 export const services = [
     {
         imgURL: shieldTick,
-        label: "Become a member",
+        label: "Become Member",
         subtext: "As a member you get to choose what you would like to taste and your preference."
     },
     {
         imgURL: support,
-        label: "Post the videos",
+        label: "Post Videos",
         subtext: "Post youtube, instagram videos of the recipe that you want to taste"
     },
     {
         imgURL: truckFast,
-        label: "Get notified",
+        label: "Get Notified",
         subtext: "Our dedicated team will confirm when your preference is scheduled."
     },
 ];
